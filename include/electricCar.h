@@ -9,4 +9,4 @@ class ElectricCar : public Car {
 	//Define new methods unique to Car
 	virtual std::string ChargeBattery();
 	
-}
+};

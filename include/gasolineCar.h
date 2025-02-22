@@ -12,4 +12,4 @@ class GasolineCar : public Car {
 		//Add new classes specific to gasoline engine
 		virtual double FuelEfficiency();
 		virtual std::string Refuel();
-}
+};
