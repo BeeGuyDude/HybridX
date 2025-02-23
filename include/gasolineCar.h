@@ -11,8 +11,8 @@ class GasolineCar : virtual public Car {
 		
 		//Override base class
 		std::string Drive() override;
+		double FuelEfficiency() override;
 
 		//Add new classes specific to gasoline engine
-		virtual double FuelEfficiency();
 		virtual std::string Refuel();
 };

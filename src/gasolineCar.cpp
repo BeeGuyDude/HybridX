@@ -8,7 +8,7 @@ std::string GasolineCar::Drive() {
 	return "Drive GasolineCar";
 }
 
-//Fuel efficiency check for gasoline car
+//Overridden FuelEfficiency() method
 double GasolineCar::FuelEfficiency() {
 	return 10;
 }

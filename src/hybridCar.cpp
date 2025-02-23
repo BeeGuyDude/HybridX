@@ -13,7 +13,7 @@ std::string HybridCar::ChargeBattery() {
 	return "ChargeBattery HybridCar";
 }
 
-//Overridden FuelEfficiency() method from GasolineCar
+//Overridden FuelEfficiency() method from GasolineCar *and* ElectricCar
 double HybridCar::FuelEfficiency() {
 	return 10;
 }

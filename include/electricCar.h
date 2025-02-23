@@ -9,7 +9,8 @@ class ElectricCar : virtual public Car {
 
 		//Override inherited methods
 		std::string Drive() override;
-		
+		double FuelEfficiency() override;
+
 		//Define new methods unique to Car
 		virtual std::string ChargeBattery();
 	

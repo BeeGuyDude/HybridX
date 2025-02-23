@@ -60,6 +60,6 @@ TEST_CASE("Hybrid Car Tests", "[HybridCar]") {
 	REQUIRE(e_car_p->ChargeBattery() == "ChargeBattery HybridCar");
 	REQUIRE(g_car_p->Refuel() == "Refuel HybridCar");
 
-	//Confirm that multiple inheriting object still throws errors when implemented methods are called from pointers
-
+	//Test multiple inheritance calls from within scope of specific object
+	REQUIRE(hCar.ElectricCar::FuelEfficiency() == 10);
 }

@@ -8,4 +8,5 @@ class Car {
 		//Base class, no member variables needed
 	public: 
 		virtual std::string Drive() = 0;
+		virtual double FuelEfficiency() = 0;
 };
