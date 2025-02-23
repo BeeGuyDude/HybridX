@@ -4,7 +4,7 @@
 GasolineCar::GasolineCar() {}
 
 //Overridden Drive() method from base class Car
-std::string GasolineCar::Drive() override {
+std::string GasolineCar::Drive() {
 	return "Drive GasolineCar";
 }
 

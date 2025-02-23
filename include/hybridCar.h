@@ -7,6 +7,9 @@ class HybridCar : public ElectricCar, public GasolineCar {
 	private:
 
 	public:
+		//Default constructor
+		HybridCar();
+		
 		//Override publically inherited methods
 		std::string Drive() override;
 		std::string ChargeBattery() override;

@@ -4,7 +4,7 @@
 ElectricCar::ElectricCar() {};
 
 //Overridden Drive() method
-std::string ElectricCar::Drive() override {
+std::string ElectricCar::Drive() {
 	return "Drive ElectricCar";	
 }
 

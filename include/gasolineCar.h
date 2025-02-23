@@ -2,10 +2,13 @@
 
 #include "car.h"
 
-class GasolineCar : public Car {
+class GasolineCar : virtual public Car {
 	private:
 
 	public:
+		//Default constructor
+		GasolineCar();
+		
 		//Override base class
 		std::string Drive() override;
 
